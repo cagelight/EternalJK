@@ -2725,6 +2725,8 @@ CG_LoadEmojis
 Method that registers all the avaialable emojis
 =================
 */
+loadableEmoji_t emojis[MAX_LOADABLE_EMOJIS];
+
 static void CG_LoadEmojis(void) {
 	int	emojiExtFNLen, fileCnt, i, inserted = 0;
 	char* holdChar;

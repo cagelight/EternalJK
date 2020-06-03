@@ -68,6 +68,8 @@ qboolean G_EntIsBreakable( int entityNum );
 qboolean G_EntIsRemovableUsable( int entNum );
 void CP_FindCombatPointWaypoints( void );
 
+VoteFloodProtect_t voteFloodProtect[voteFloodProtectSize];
+
 /*
 ================
 G_FindTeams
